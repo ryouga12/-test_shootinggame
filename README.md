@@ -17,8 +17,8 @@ test_shootinggame/
 │   └── images/              # ゲーム内で使用する画像格納フォルダ (Player, Enemy, Bullet等)
 │
 ├── program/                 # ゲームプログラム本編 (ソースコード)
-│   ├── Manager/             # 管理者クラス
-│   │                        # 今回は使いません
+│   ├── Manager/             # 管理者クラス(今回は使いません)
+│   │                        
 │   │
 │   ├── Object/              # キャラクター・実体クラス
 │   │                        # (例: Player, Enemy, Bullet などのオブジェクト)
