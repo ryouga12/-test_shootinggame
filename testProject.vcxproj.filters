@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\common">
+      <UniqueIdentifier>{f07cbef1-f20a-4a1f-99a3-dbc1a5d87951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\common\input">
+      <UniqueIdentifier>{b8f613e6-982d-46e6-80ea-371d7d60da76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\program">
+      <UniqueIdentifier>{0ab83c30-4fee-45ad-941f-ac45e881ac06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\program\Object">
+      <UniqueIdentifier>{5268abf6-6a51-460e-84d2-6ce6ddb99a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\program\Scene">
+      <UniqueIdentifier>{0f0b8211-9556-4bf7-83d8-0672770d5ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\program\Manager">
+      <UniqueIdentifier>{13fb2aa9-2dad-4027-a7df-0f22e0e89051}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="game_main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="common\input\input.cpp">
+      <Filter>ソース ファイル\common\input</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Scene\PlayScene.cpp">
+      <Filter>ソース ファイル\program\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Object\Player.cpp">
+      <Filter>ソース ファイル\program\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Object\Bullet.cpp">
+      <Filter>ソース ファイル\program\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Object\Enemy.cpp">
+      <Filter>ソース ファイル\program\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Object\Actor.cpp">
+      <Filter>ソース ファイル\program\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="program\Manager\SoundManager.cpp">
+      <Filter>ソース ファイル\program\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game_main.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="common\input\input.h">
+      <Filter>ソース ファイル\common\input</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Scene\PlayScene.h">
+      <Filter>ソース ファイル\program\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Object\Player.h">
+      <Filter>ソース ファイル\program\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Object\Bullet.h">
+      <Filter>ソース ファイル\program\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Object\Enemy.h">
+      <Filter>ソース ファイル\program\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Object\Actor.h">
+      <Filter>ソース ファイル\program\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common_value.h">
+      <Filter>ソース ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="program\Manager\SoundManager.h">
+      <Filter>ソース ファイル\program\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
